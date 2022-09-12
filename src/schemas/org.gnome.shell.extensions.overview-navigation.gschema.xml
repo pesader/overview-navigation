@@ -32,7 +32,7 @@
     </key>
 
     <key name="closing-font-color" type="s">
-      <default>"#bb1714"</default>
+      <default>"#ff7b63"</default>
       <summary>Hint closing font color.</summary>
       <description>Customize the font color of closing hints.</description>
     </key>
