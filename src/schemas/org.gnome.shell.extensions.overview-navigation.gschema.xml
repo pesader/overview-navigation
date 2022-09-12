@@ -31,6 +31,12 @@
       <description>Customize the font color of hints.</description>
     </key>
 
+    <key name="font-size" type="i">
+      <default>20</default>
+      <summary>Hint font size.</summary>
+      <description>Customize the font size of hints.</description>
+    </key>
+
     <key name="closing-font-color" type="s">
       <default>"#bb1714"</default>
       <summary>Hint closing font color.</summary>

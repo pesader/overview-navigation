@@ -7,6 +7,7 @@ const PROPERTIES = {
   HINT_BACKGROUND_COLOR: 'background-color',
   HINT_CLOSING_FONT_COLOR: 'closing-font-color',
   HINT_FONT_COLOR: 'font-color',
+  HINT_FONT_SIZE: 'font-size',
   HINT_BORDER_COLOR: 'border-color',
   HINT_BORDER_SIZE: 'border-size'
 }
@@ -40,6 +41,10 @@ var Settings = class Settings {
 
   getFontColor () {
     return this.getStringProperty(PROPERTIES.HINT_FONT_COLOR)
+  }
+
+  getFontSize () {
+    return this.getNumberProperty(PROPERTIES.HINT_FONT_SIZE)
   }
 
   getBorderColor () {

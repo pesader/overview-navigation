@@ -43,6 +43,12 @@ class SettingsUI extends Widget {
       this.properties.HINT_FONT_COLOR,
       this.logger
     )
+    const fontSize = new NumberInputWidget(
+      'Hint font size (px)',
+      this.settings,
+      this.properties.HINT_FONT_SIZE,
+      this.logger
+    )
     const borderColor = new ColorChooserWidget(
       'Hint border color',
       this.settings,
@@ -58,6 +64,7 @@ class SettingsUI extends Widget {
 
     style.append(backgroundColorText)
     style.append(fontColorText)
+    style.append(fontSize)
     style.append(borderColor)
     style.append(borderSize)
     style.register(this.notebook)
